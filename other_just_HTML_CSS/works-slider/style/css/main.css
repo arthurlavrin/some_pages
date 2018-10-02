@@ -1,0 +1,154 @@
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+h3, p {
+  margin: 0; }
+
+.slider {
+  width: 100%;
+  margin: 0 auto; }
+  .slider .slider-item {
+    margin-right: 20px;
+    outline: none;
+    position: relative; }
+
+.slide-wrap {
+  position: relative; }
+
+.prev, .next {
+  position: absolute;
+  cursor: pointer; }
+
+.prev {
+  top: 37%; }
+
+.next {
+  top: 36%;
+  right: 0;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.slick-slide {
+  opacity: 0.3;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+
+.slick-center {
+  opacity: 1;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+
+.link-hover {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(27, 241, 173, 0.46);
+  height: 100%;
+  visibility: hidden;
+  color: white; }
+  .link-hover h3 {
+    margin-top: 320px;
+    margin-left: 25px;
+    font-size: 28px; }
+  .link-hover p {
+    margin-left: 25px;
+    font-size: 12px; }
+
+.slider .slick-center:hover {
+  cursor: pointer; }
+  .slider .slick-center:hover .link-hover {
+    visibility: visible; }
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px; }
+
+.slogan {
+  font-size: 86px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative; }
+  .slogan .triangle {
+    position: absolute;
+    top: 180px;
+    left: 0; }
+  .slogan .plus {
+    position: absolute;
+    top: -40px; }

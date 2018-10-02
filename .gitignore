@@ -1,0 +1,10 @@
+/node_modules/
+
+/.git/
+
+/**/*.psd
+
+/**/*.DS_Store
+.idea/
+
+node_modules/

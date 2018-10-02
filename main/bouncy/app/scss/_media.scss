@@ -1,0 +1,146 @@
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+};
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+};
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+  .header-nav {
+    display: none;
+  }
+
+  #sandwich {
+    display: block;
+    z-index: 100;
+  }
+
+  .leftbar-wrap {
+    display: none;
+  }
+
+  .slick-initialized .slick-slide {
+    flex-direction: column;
+  }
+
+  .b-about-teammate .teammate-position {
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .b-about-teammate .teammate-position .post-wrap {
+    margin-bottom: 20px;
+  }
+
+  .test-slider_item {
+    flex-direction: column;
+  }
+
+  .review-photo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .b-testimonials-slider {
+    height: auto;
+  }
+
+  .slider-wrapper {
+    height: auto;
+  }
+
+  .review-info {
+    text-align: center;
+  }
+
+  .b-testimonials-slider {
+    .test-slider_item {
+      .review-photo {
+        margin: 15px 0 20px 0;
+      }
+    }
+  }
+
+  .b-testimonials-slider {
+    .dots {
+      padding-bottom: 20px;
+    }
+  }
+
+
+};
+@media only screen and (min-width : 768px){
+  .sandwich-menu {
+    display: none;
+  }
+  #sandwich2 {
+    z-index: 100;
+  }
+
+};
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+
+};
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+};
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+};
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+};
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+};
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+};
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+};
+	/**/
+

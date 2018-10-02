@@ -1,0 +1,338 @@
+@import "ionicons";
+@import "font-awesome";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900');
+
+$primary-color: #ffcc00;
+$mainText-color: #333;
+$subText-color: #666;
+$link-color: #ccc;
+$link-bg: #fff;
+
+@mixin socials($bg, $color) {
+  display: inline-block;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  background: $bg;
+  color: $color;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 14px;
+  border: 2px solid $link-color;
+  text-align: center;
+  transition: all 0.5s ease-in;
+  &:hover {
+    border: 2px solid $primary-color;
+    color: $primary-color;
+  }
+}
+
+
+img {
+  width: 100%;
+}
+
+//* {
+//  transition: all 0.2s ease-in;
+//}
+
+
+body {
+  font-size: 14px;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: auto;
+  min-width: 220px;
+
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: $primary-color;
+  max-width: 450px;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid $primary-color;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  .title__slogan {
+    color: #898f8f;
+    margin: 0;
+    font: 500 18px 'Raleway', sans-serif;
+  }
+  .title__name {
+    margin: 0;
+    font: 900 60px 'Roboto', sans-serif;
+  }
+}
+
+.ion-bonfire {
+  position: absolute;
+  bottom: -19px;
+  left: 0;
+  right: 0;
+  background: white;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+}
+
+.b-photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-frame {
+  width: 66.66%;
+  border: 1px solid #ffcc00;
+  position: relative;
+  padding: 2%;
+  .b-inner-vr {
+    width: 50%;
+    height: 105%;
+    background: white;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .b-inner-hr {
+    width: 105%;
+    height: 50%;
+    background: white;
+    margin: auto;
+    position: absolute;
+    left: -3%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .photo-main {
+    border: 1px solid #ffcc00;
+    position: relative;
+  }
+}
+
+.center-line {
+  width: 1px;
+  height: 560px;
+  background: $primary-color;
+  margin-top: 50px;
+}
+
+.b-about {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-frame {
+  width: 71.66%;
+}
+
+.about__name {
+  font: 900 36px 'Roboto', sans-serif;
+  color: rgb(102, 102, 102);
+  margin: 0;
+}
+
+.about-solid-line {
+  background: $primary-color;
+  width: 98px;
+  height: 1px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about__activities {
+  font: 400 24px 'Raleway', sans-serif;
+  color: $subText-color;
+}
+
+.b-socials {
+  margin: 30px 0;
+}
+
+.social__links {
+  @include socials($link-bg, $link-color);
+}
+
+.about-bio {
+  font: 500 14px 'Raleway', sans-serif;
+  color: $mainText-color;
+  line-height: 1.714;
+}
+
+.line-dashed {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line__half {
+  width: 10px;
+  height: 4px;
+  background: $primary-color;
+}
+
+.line__one {
+  width: 20px;
+  height: 4px;
+  background: $primary-color;
+  margin: 0 3px 0 3px;
+}
+
+.about__btn {
+  background: transparent;
+  font: 700 14px 'Open Sans', sans-serif;
+  color: $subText-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid $primary-color;
+  width: 120px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.about__btn:hover {
+  background: $primary-color;
+  color: #fff;
+  box-shadow: 0 0 18px $subText-color;
+}
+
+.social__links--facebook:hover {
+  border: 2px solid #4862A3;
+  color: #4862A3;
+}
+
+.social__links--twitter:hover {
+  border: 2px solid #79BEF1;
+  color: #79BEF1;
+}
+
+.social__links--google:hover {
+  border: 2px solid #D54C40;
+  color: #D54C40;
+}
+
+
+
+.social__links--linkedin:hover {
+  border: 2px solid #0077B5;
+  color: #0077B5;
+}
+
+
+
+.slider-checkbox-second {
+  display: none;
+}
+
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 40px;
+  color: $primary-color;
+  transition: all 0.2s ease-in;
+}
+
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+  transform: scale(1.5);
+}
+
+.slider-checkbox-first {
+  text-align: center;
+  margin: 40px 0 94px 0;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin: 0 5px 0 0;
+  border-radius: 50%;
+  border: 1px solid $primary-color;
+}
+
+input[type="radio"]:checked + label::before {
+  border: 1px solid $primary-color;
+  background: $primary-color;
+}
+
+
+@media screen and (max-width: 700px) {
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .center-line {
+    display: none;
+  }
+  .b-photo {
+    margin: 30px;
+    width: auto;
+  }
+  .b-about {
+    width: auto;
+  }
+  .fa-angle-left,
+  .fa-angle-right {
+    margin-top: 150px;
+  }
+  .main-wrapper {
+    align-items: stretch;
+  }
+  .slider-checkbox-second {
+    text-align: center;
+    margin: 5px 0 30px 0;
+    display: block;
+  }
+  .slider-checkbox-first {
+    display: none;
+  }
+}
+
+@media (max-width: 340px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+  .main-title .title__name {
+    font: 900 40px 'Roboto', sans-serif;
+  }
+}

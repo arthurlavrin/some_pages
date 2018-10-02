@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #ffffff;
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-4 {
+        fill: #000000;
+        filter: url(#color-overlay-2);
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#252525" flood-opacity="1"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="colorOverlay"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#ffffff" flood-opacity="1"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="colorOverlay"/>
+    </filter>
+  </defs>
+  <g id="enlargesvg">
+    <circle id="circle-1" class="cls-3" cx="21" cy="21" r="21"/>
+    <path d="M26.977,26.502 C26.977,26.502 24.183,23.707 24.183,23.707 C24.856,22.735 25.193,21.652 25.193,20.457 C25.193,19.680 25.042,18.937 24.741,18.228 C24.439,17.519 24.032,16.908 23.519,16.395 C23.005,15.882 22.394,15.475 21.686,15.173 C20.977,14.872 20.234,14.721 19.457,14.721 C18.680,14.721 17.938,14.872 17.229,15.173 C16.520,15.475 15.909,15.882 15.396,16.395 C14.882,16.908 14.475,17.519 14.174,18.228 C13.872,18.937 13.721,19.680 13.721,20.457 C13.721,21.233 13.872,21.976 14.174,22.685 C14.475,23.394 14.882,24.005 15.396,24.518 C15.909,25.031 16.520,25.439 17.229,25.740 C17.938,26.042 18.680,26.193 19.457,26.193 C20.652,26.193 21.736,25.856 22.708,25.182 C22.708,25.182 25.502,27.968 25.502,27.968 C25.698,28.174 25.942,28.278 26.236,28.278 C26.518,28.278 26.763,28.174 26.969,27.968 C27.175,27.762 27.278,27.517 27.278,27.235 C27.279,26.947 27.178,26.703 26.977,26.502 ZM22.036,23.035 C21.321,23.749 20.462,24.106 19.457,24.106 C18.452,24.106 17.593,23.749 16.879,23.035 C16.164,22.321 15.807,21.462 15.807,20.457 C15.807,19.452 16.164,18.592 16.879,17.878 C17.593,17.164 18.452,16.807 19.457,16.807 C20.462,16.807 21.321,17.164 22.036,17.878 C22.750,18.592 23.107,19.452 23.107,20.457 C23.107,21.462 22.750,22.321 22.036,23.035 Z" id="path-1" class="cls-4" fill-rule="evenodd"/>
+  </g>
+</svg>

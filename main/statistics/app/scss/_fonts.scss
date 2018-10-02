@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+
+@include font-face('PTSansBold', '../fonts/PTSansBold/PTSansBold', 700);
+
+@include font-face('PTSansItalic', '../fonts/PTSansItalic/PTSansItalic');
+
+@include font-face('PTSansRegular', '../fonts/PTSansRegular/PTSansRegular');

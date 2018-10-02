@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1366" height="2360" viewBox="0 0 1366 2360">
+  <defs>
+    <style>
+
+      .cls-4 {
+        fill: #ffffff;
+      }
+
+      .cls-7 {
+        opacity: 0.5;
+      }
+
+      .cls-9 {
+        font-size: 16px;
+      }
+
+      .cls-10 {
+        fill: #ffffff;
+        text-anchor: middle;
+        font-size: 16px;
+        font-family: "OpenSans";
+      }
+
+      .cls-11 {
+        font-size: 35px;
+      }
+
+      .cls-12 {
+        fill: #ffffff;
+        font-size: 35px;
+        font-family: "SourceSansPro-Light";
+        text-transform: uppercase;
+      }
+
+      .cls-14 {
+        fill: #19bd9a;
+      }
+    </style>
+  </defs>
+  <g id="arrow-btnsvg">
+    <g id="-hover">
+      <circle id="circle-1" class="cls-14" cx="683" cy="642" r="18"/>
+      <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHBAMAAADOnLEXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEUAAAD///////////////////////////8AAADr8xjQAAAACHRSTlMAVRFmmczud06TPJUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAKElEQVQI12MQYgACAwZXBQYGliAQAjNdFUAsIBfEYWBwA3EYGNiBHABj0QPu8iWSRgAAAABJRU5ErkJggg==" x="677" y="639" width="12" height="7"/>
+    </g>
+  </g>
+</svg>
